@@ -1,0 +1,49 @@
+# Байт-код и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Cреды и пакеты
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Установка зависимостей (Pipenv, Poetry, uv)
+.pip/
+Pipenv.lock
+.poetry/
+.uv/
+
+# Виртуальные окружения разных IDE и инструменты
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Локальные настройки и переменные окружения
+.env
+.env.local
+*.log
+
+# Тесты и документация (pytest, tox, coverage)
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+docs/_build/
